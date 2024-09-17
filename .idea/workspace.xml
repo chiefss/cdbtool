@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a2eb793-1232-433e-a14d-0e1cc4a19140" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/azul-19.0.2/lib/src.zip!/java.base/java/lang/AutoCloseable.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/azul-19.0.2/lib/src.zip!/java.sql/java/sql/SQLException.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/TerminalPosition.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/TerminalRectangle.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/graphics/PropertyTheme.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/graphics/SimpleTheme.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/graphics/Theme.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/AbstractBasePane.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/AbstractComponent.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/AbstractWindow.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/Border.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/BorderLayout.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/Borders.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/Component.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/DefaultWindowManager.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/EmptySpace.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/GridLayout.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/LayoutData.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/LinearLayout.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/MenuPopupWindow.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/Panel.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/Window.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/WindowDecorationRenderer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/com/googlecode/lanterna/lanterna/3.1.2/lanterna-3.1.2-sources.jar!/com/googlecode/lanterna/gui2/WindowShadowRenderer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar!/org/apache/logging/log4j/util/Strings.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2m3GV8bkedxUOgD9udYhEJ8fLQQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Debug",
+    "JUnit.TestAll.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "com.codeium.enabled": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/chiefss/JetBrains/IdeaProjects/cdbtool",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.cdbtool.cdbtool.connectors" />
+      <recent name="org.cdbtool.cdbtool.dtos" />
+      <recent name="org.cdbtool.cdbtool.view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshots" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/cdbtool/cdbtool/ui" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/develop" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.cdbtool.cdbtool.utils" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.cdbtool.cdbtool.dtos" />
+      <recent name="org.cdbtool.cdbtool.observers" />
+      <recent name="org.cdbtool.cdbtool.enums" />
+      <recent name="org.cdbtool.cdbtool.config" />
+      <recent name="org.cdbtool.cdbtool.utils" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.cdbtool.cdbtool.utils" />
+      <recent name="org.cdbtool.cdbtool.connectors" />
+      <recent name="org.cdbtool.cdbtool.exceptions" />
+      <recent name="org.cdbtool.cdbtool.dtos" />
+      <recent name="org.cdbtool.cdbtool.ui.views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestAll">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.cdbtool.Main" />
+      <module name="cdbtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cdbtool.cdbtool.ui.listeners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnvironmentConfigTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cdbtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cdbtool.cdbtool.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cdbtool.cdbtool.config" />
+      <option name="MAIN_CLASS_NAME" value="org.cdbtool.cdbtool.config.EnvironmentConfigTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistoryListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cdbtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cdbtool.cdbtool.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cdbtool.cdbtool.utils" />
+      <option name="MAIN_CLASS_NAME" value="org.cdbtool.cdbtool.utils.HistoryListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistoryListTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cdbtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cdbtool.cdbtool.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cdbtool.cdbtool.utils" />
+      <option name="MAIN_CLASS_NAME" value="org.cdbtool.cdbtool.utils.HistoryListTest" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistoryListTest.put" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cdbtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cdbtool.cdbtool.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cdbtool.cdbtool.utils" />
+      <option name="MAIN_CLASS_NAME" value="org.cdbtool.cdbtool.utils.HistoryListTest" />
+      <option name="METHOD_NAME" value="put" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HistoryListTest.put_max" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cdbtool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.cdbtool.cdbtool.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.cdbtool.cdbtool.utils" />
+      <option name="MAIN_CLASS_NAME" value="org.cdbtool.cdbtool.utils.HistoryListTest" />
+      <option name="METHOD_NAME" value="put_max" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAll" type="JUnit" factoryName="JUnit">
+      <module name="cdbtool" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TestAll" />
+      <item itemvalue="JUnit.EnvironmentConfigTest" />
+      <item itemvalue="JUnit.HistoryListTest.add" />
+      <item itemvalue="JUnit.HistoryListTest" />
+      <item itemvalue="JUnit.HistoryListTest.put" />
+      <item itemvalue="JUnit.HistoryListTest.put_max" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EnvironmentConfigTest" />
+        <item itemvalue="JUnit.HistoryListTest.add" />
+        <item itemvalue="JUnit.HistoryListTest.put_max" />
+        <item itemvalue="JUnit.HistoryListTest" />
+        <item itemvalue="JUnit.HistoryListTest.put" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a2eb793-1232-433e-a14d-0e1cc4a19140" name="Changes" comment="" />
+      <created>1726297867703</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726297867703</updated>
+      <workItem from="1726297868875" duration="21550000" />
+      <workItem from="1726468290161" duration="98927000" />
+      <workItem from="1726693734213" duration="1217000" />
+      <workItem from="1726725555287" duration="2809000" />
+      <workItem from="1727103065811" duration="38000" />
+      <workItem from="1727196440204" duration="633000" />
+      <workItem from="1727376258562" duration="9021000" />
+      <workItem from="1727429680629" duration="601000" />
+      <workItem from="1727463444906" duration="1701000" />
+      <workItem from="1727545976179" duration="5410000" />
+      <workItem from="1727982648799" duration="5233000" />
+      <workItem from="1728284531493" duration="2856000" />
+      <workItem from="1728315422259" duration="3407000" />
+      <workItem from="1728370004305" duration="4750000" />
+      <workItem from="1728386584298" duration="4361000" />
+      <workItem from="1728638433822" duration="1669000" />
+      <workItem from="1728658865471" duration="31000" />
+      <workItem from="1728672615055" duration="1259000" />
+      <workItem from="1728755425280" duration="1866000" />
+      <workItem from="1728908073014" duration="201000" />
+      <workItem from="1729619256325" duration="104000" />
+      <workItem from="1729854951725" duration="3206000" />
+      <workItem from="1730196419023" duration="605000" />
+    </task>
+    <task id="LOCAL-00005" summary="init">
+      <created>1726598555687</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726598555687</updated>
+    </task>
+    <task id="LOCAL-00006" summary="init">
+      <created>1726598604709</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726598604709</updated>
+    </task>
+    <task id="LOCAL-00007" summary="init">
+      <created>1726598648361</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726598648361</updated>
+    </task>
+    <task id="LOCAL-00008" summary="init">
+      <created>1726599222601</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726599222601</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init">
+      <created>1726603803694</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726603803694</updated>
+    </task>
+    <task id="LOCAL-00010" summary="init">
+      <created>1726603833357</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726603833357</updated>
+    </task>
+    <task id="LOCAL-00011" summary="init">
+      <created>1726608149433</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726608149433</updated>
+    </task>
+    <task id="LOCAL-00012" summary="init">
+      <created>1726647936955</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1726647936955</updated>
+    </task>
+    <task id="LOCAL-00013" summary="init">
+      <created>1726653002127</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726653002127</updated>
+    </task>
+    <task id="LOCAL-00014" summary="init">
+      <created>1726655307314</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726655307314</updated>
+    </task>
+    <task id="LOCAL-00015" summary="init">
+      <created>1726669634077</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726669634077</updated>
+    </task>
+    <task id="LOCAL-00016" summary="init">
+      <created>1726672088948</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726672088948</updated>
+    </task>
+    <task id="LOCAL-00017" summary="init">
+      <created>1726677601582</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726677601582</updated>
+    </task>
+    <task id="LOCAL-00018" summary="init">
+      <created>1726677754187</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726677754187</updated>
+    </task>
+    <task id="LOCAL-00019" summary="init">
+      <created>1726680425030</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726680425030</updated>
+    </task>
+    <task id="LOCAL-00020" summary="init">
+      <created>1726680590497</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1726680590498</updated>
+    </task>
+    <task id="LOCAL-00021" summary="init">
+      <created>1726680606534</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726680606534</updated>
+    </task>
+    <task id="LOCAL-00022" summary="init">
+      <created>1726682834658</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1726682834658</updated>
+    </task>
+    <task id="LOCAL-00023" summary="init">
+      <created>1726683019844</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1726683019844</updated>
+    </task>
+    <task id="LOCAL-00024" summary="init">
+      <created>1726687334448</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1726687334448</updated>
+    </task>
+    <task id="LOCAL-00025" summary="init">
+      <created>1726687444903</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1726687444903</updated>
+    </task>
+    <task id="LOCAL-00026" summary="init">
+      <created>1726688125963</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1726688125963</updated>
+    </task>
+    <task id="LOCAL-00027" summary="init">
+      <created>1726689723172</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1726689723172</updated>
+    </task>
+    <task id="LOCAL-00028" summary="init">
+      <option name="closed" value="true" />
+      <created>1726690232049</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1726690232049</updated>
+    </task>
+    <task id="LOCAL-00029" summary="init">
+      <created>1726694058991</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1726694058991</updated>
+    </task>
+    <task id="LOCAL-00030" summary="init">
+      <created>1726722210295</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1726722210295</updated>
+    </task>
+    <task id="LOCAL-00031" summary="init">
+      <created>1726727122046</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726727122046</updated>
+    </task>
+    <task id="LOCAL-00032" summary="init">
+      <created>1726727145118</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1726727145118</updated>
+    </task>
+    <task id="LOCAL-00033" summary="init">
+      <created>1726727401748</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1726727401748</updated>
+    </task>
+    <task id="LOCAL-00034" summary="init">
+      <created>1726727785237</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1726727785237</updated>
+    </task>
+    <task id="LOCAL-00035" summary="init">
+      <created>1726750707805</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1726750707805</updated>
+    </task>
+    <task id="LOCAL-00036" summary="init">
+      <created>1726752106597</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1726752106597</updated>
+    </task>
+    <task id="LOCAL-00037" summary="init">
+      <created>1726813275812</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1726813275812</updated>
+    </task>
+    <task id="LOCAL-00038" summary="init">
+      <created>1726813464934</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1726813464934</updated>
+    </task>
+    <task id="LOCAL-00039" summary="init">
+      <created>1726813770947</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1726813770947</updated>
+    </task>
+    <task id="LOCAL-00040" summary="init">
+      <created>1726815639893</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1726815639893</updated>
+    </task>
+    <task id="LOCAL-00041" summary="init">
+      <created>1727381205643</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1727381205643</updated>
+    </task>
+    <task id="LOCAL-00042" summary="init">
+      <created>1728025178939</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1728025178939</updated>
+    </task>
+    <task id="LOCAL-00043" summary="init">
+      <created>1728286809468</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1728286809468</updated>
+    </task>
+    <task id="LOCAL-00044" summary="init">
+      <created>1728370419314</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1728370419314</updated>
+    </task>
+    <task id="LOCAL-00045" summary="init">
+      <created>1728373694959</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1728373694959</updated>
+    </task>
+    <task id="LOCAL-00046" summary="init">
+      <created>1728373756446</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1728373756446</updated>
+    </task>
+    <task id="LOCAL-00047" summary="init">
+      <created>1728376372438</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1728376372438</updated>
+    </task>
+    <task id="LOCAL-00048" summary="init">
+      <created>1728376469924</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1728376469924</updated>
+    </task>
+    <task id="LOCAL-00049" summary="init">
+      <created>1728376540788</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1728376540788</updated>
+    </task>
+    <task id="LOCAL-00050" summary="init">
+      <created>1728387285209</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1728387285210</updated>
+    </task>
+    <task id="LOCAL-00051" summary="init">
+      <created>1729856197169</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1729856197170</updated>
+    </task>
+    <task id="LOCAL-00052" summary="init">
+      <created>1729859259985</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1729859259985</updated>
+    </task>
+    <task id="LOCAL-00053" summary="init">
+      <created>1730196626118</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1730196626119</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
