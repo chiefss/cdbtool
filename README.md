@@ -50,5 +50,5 @@ Simply run:
 ------------
 
 ```bash
-$ java -jar ./cdbtool-1.0-SNAPSHOT-jar-with-dependencies.jar
+$ java -jar ./cdbtool-0.0.1-SNAPSHOT.jar
 ```
